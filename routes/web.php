@@ -25,11 +25,6 @@ Route::post('/registration', [RegisterController::class, 'register'])->name('reg
 
 Route::get('/logout', [LogoutController::class, 'logout'])->name('logout');
 
-
 Route::get('/', [FeedbackController::class, 'show'])->name('show');
 
 Route::post('/store', [FeedbackController::class, 'store'])->name('store')->middleware('auth');
-
-Route::get('/test', function (){
-
-});
