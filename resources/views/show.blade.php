@@ -1,5 +1,9 @@
 @extends('layout.head')
 
+@section('title')
+    Главная
+@endsection
+
 @section('content')
 
 <div class="row">

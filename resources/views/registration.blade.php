@@ -1,5 +1,9 @@
 @extends('layout.head')
 
+@section('title')
+    Регистрация
+@endsection
+
 @section('content')
     @if ($errors->any())
         <div class="alert alert-danger">
